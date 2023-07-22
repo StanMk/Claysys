@@ -4,7 +4,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:55680",
+      "applicationUrl": "https://claysys-dev-as.azurewebsites.net",
       "sslPort": 0
     }
   },
@@ -21,7 +21,7 @@
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "NotificationsHub",
-      "applicationUrl": "http://localhost:55680",
+      "applicationUrl": "https://claysys-dev-as.azurewebsites.net",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
