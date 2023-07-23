@@ -33,7 +33,7 @@ namespace Claysys
              .AllowAnyMethod()
              .AllowCredentials()
              .SetIsOriginAllowed((host) => true)
-             .WithOrigins("http://localhost:8080");
+             .WithOrigins("https://polite-sea-06cc8e010.3.azurestaticapps.net/");
 
                 });
             });
