@@ -33,7 +33,7 @@ namespace Claysys
              .AllowAnyMethod()
              .AllowCredentials()
              .SetIsOriginAllowed((host) => true)
-             .WithOrigins("https://witty-mud-0c0c7cf10.3.azurestaticapps.net");
+             .WithOrigins("https://purple-smoke-0cb16a810.3.azurestaticapps.net");
 
                 });
             });
