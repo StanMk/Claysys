@@ -54,7 +54,7 @@ namespace Claysys
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-                endpoints.MapHub<NotificationsHub>("https://claysyssignalr.service.signalr.net/notificationsHub"); 
+                endpoints.MapHub<NotificationsHub>("/notificationsHub"); 
             });
         }
     }
