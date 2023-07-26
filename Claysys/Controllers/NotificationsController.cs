@@ -28,8 +28,8 @@ namespace Claysys.Controllers
         [HttpPost("send")]
         public IActionResult SendNotification()
         {
-            _hubContext.Clients.All.SendAsync("ReceiveNotification");
             _unreadCount++;
+            _hubContext.Clients.All.SendAsync("ReceiveNotification");
             return Ok(new { message = "Notification sent successfully.", unreadCount = _unreadCount });
         }
 
