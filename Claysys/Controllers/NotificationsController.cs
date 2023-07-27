@@ -12,8 +12,8 @@ namespace Claysys.Controllers
     public class NotificationsController : ControllerBase
     {
         private readonly IHubContext<NotificationsHub> _hubContext;
-        private static int _unreadCount = 0; // Initial unread count
-        private static int _initialUnreadCount = 0;
+        private static int _unreadCount = 1; // Initial unread count
+        private static int _initialUnreadCount = 1;
         public NotificationsController(IHubContext<NotificationsHub> hubContext)
         {
             _hubContext = hubContext;
